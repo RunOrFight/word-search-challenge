@@ -1,0 +1,15 @@
+@import "Normalize.css";
+@import "Variables.css";
+@import "../Assets/Fonts/VAGWorld/VAGWorld.css";
+
+* {
+    font-family: VAG World, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: var(--dark-text);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

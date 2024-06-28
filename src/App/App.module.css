@@ -1,0 +1,9 @@
+.app {
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 27px;
+    align-items: center;
+}

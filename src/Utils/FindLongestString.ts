@@ -1,5 +1,5 @@
 const findLongestString = (arrayOfStrings: string[]) => arrayOfStrings.reduce((acc, value) => {
-    if (value.length > acc) {
+    if (value.length > acc.length) {
         acc = value
     }
 

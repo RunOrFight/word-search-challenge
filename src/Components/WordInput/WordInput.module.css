@@ -6,20 +6,12 @@
     position: relative;
 }
 
-.letterWrapper {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-
-}
 
 .letter {
+    user-select: none;
     position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(-50%, -50%);
+    top: calc(50% - 47.5px);
+    left: calc(50% - 45px);
     border-radius: 50%;
     width: 90px;
     height: 95px;
@@ -30,4 +22,9 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--dark-text);
+}
+
+.letter[data-selected] {
+    background: var(--secondary);
+    color: var(--white)
 }

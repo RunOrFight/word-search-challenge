@@ -21,7 +21,7 @@ const getAllLettersFromWords = (words: string[]) => {
 
     })
 
-    return Object.entries(requiredLettersForAllWords).reduce((acc, [letter, count]) => {
+    return Object.entries(requiredLettersForAllWords).reduce<string[]>((acc, [letter, count]) => {
         for (let i = 0; i < count; i++) {
             acc.push(letter)
         }

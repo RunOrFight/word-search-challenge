@@ -4,6 +4,6 @@ const findLongestString = (arrayOfStrings: string[]) => arrayOfStrings.reduce((a
     }
 
     return acc
-})
+}, "")
 
 export {findLongestString}

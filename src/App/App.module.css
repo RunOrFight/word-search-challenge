@@ -6,7 +6,8 @@
     max-height: 1136px;
     width: 100%;
     max-width: 640px;
-    padding: 27px;
+    padding: 25px 45px 45px;
     align-items: center;
     margin: 0 auto;
+    justify-content: space-between;
 }

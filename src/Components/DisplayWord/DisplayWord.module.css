@@ -1,0 +1,10 @@
+.displayWord {
+    position: static;
+    height: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    margin: 45px auto;
+}
